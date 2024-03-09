@@ -1,0 +1,8 @@
+alert_module.alert:
+path: '/webform/reach_me'
+defaults:
+_controller: '\Drupal\alert_module\Controller
+\AlertController::'alert'
+_title: 'welcome to alert module in Drupal'
+requirements:
+_permission: 'access content'
